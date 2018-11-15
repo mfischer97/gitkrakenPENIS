@@ -1,0 +1,51 @@
+main {  width: 70% }
+
+.nav-area {
+    background-color: #333;
+    display: flex;
+    list-style: none;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+
+.nav-area img{
+    height: 100%;
+    max-height: 56px;
+    margin-top: 4px;
+}
+.nav-area li a {
+    color: #FFF;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.nav-area li a.active {
+    background: rgba(195, 195, 195, 0.4);
+    color: #FFF;
+}
+
+.nav-area li a:hover:not(.active) {
+    background: rgba(195, 195, 195, 0.4);
+    color: #FFF;
+    text-decoration: none;
+}
+
+.center-clock {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-area li:not(:last-child):not(.center-clock) { margin-right: 15px; }
+
+.main-content {
+    background: rgba(195, 195, 195, 0.2);
+    min-height: 100%;
+    padding: 15px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
